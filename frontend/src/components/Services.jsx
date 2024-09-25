@@ -33,6 +33,7 @@ const Services = () => {
         }
     ]
     return (
+        // Services information
         <>
             <div className="services container">
                 <h2>OUR SERVICES</h2>

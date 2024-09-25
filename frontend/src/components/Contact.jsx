@@ -38,6 +38,7 @@ const Contact = () => {
   };
 
   return (
+    // DUMMY contact
     <>
       <div className="contact container">
         <div className="banner">

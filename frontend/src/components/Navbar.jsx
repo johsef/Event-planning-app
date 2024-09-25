@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
     const [show, setShow] = useState(false);
   return (
+    // Navbar for easy navigation
     <nav>
         <div className="logo">JO&apos;S EVENT</div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>

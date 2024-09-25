@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 
+// Hero section
 const HeroSection = () => {
   return (
     <section className="hero">
@@ -9,8 +10,9 @@ const HeroSection = () => {
         <div>
           <h1>Your Personal Dream Maker</h1>
           <p>
-            We believe that it is all about the BIG DREAMS and the samll
-            details!
+            Transforming visions into unforgettable moments, we specialize in
+            crafting personalized events that reflect your style and exceed your
+            expectations.
           </p>
           <Link to="contact" spy={true} smooth={true} duration={500}>
             BOOK NOW

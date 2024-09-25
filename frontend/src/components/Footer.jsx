@@ -6,6 +6,7 @@ const Footer = () => {
     toast.error("Feature coming soon");
   }
   return (
+    // FOOTER component
     <footer>
       <div className="banner">
         <div className="title">

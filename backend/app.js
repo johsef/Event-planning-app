@@ -6,6 +6,7 @@ import cors from 'cors';
 
 const app = express();
 
+// Environment variables configuration
 dotenv.config({path: "./config/.env"});
 
 app.use(cors());
@@ -13,8 +14,10 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+//Api creation 
 app.use("/api/v1/message", messageRouter);
 
+// Database connnection
 dbConnection();
 
 

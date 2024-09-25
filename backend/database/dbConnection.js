@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 export const dbConnection = () => {
+  // MongoDB Database connection
   mongoose
     .connect(
       process.env.MONGODB_URL,

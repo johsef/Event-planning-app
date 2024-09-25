@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import validator from "validator";
 
+// Schema for sending messages
 const messageSchema = new mongoose.Schema({
     name: {
         type: String,
